@@ -1896,7 +1896,7 @@ socket.on('playerTeleported', (data) => {
         });
     } catch (error) {
         console.error('初始化Socket.io失败:', error);
-        alert('多人游戏无法使用');
+        alert('多人游戏暂时无法使用');
         // 确保返回按钮仍然可用
         ensureBackButtonWorks();
     }
